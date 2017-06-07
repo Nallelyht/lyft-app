@@ -56,3 +56,16 @@
 footer section{
 	padding: 3% 0
 }
+/*form sign*/
+.input-group .input-group-addon{
+	background-color: transparent;
+}
+.stylish-input-group .form-control{
+	border-left:0; 
+	box-shadow: 0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+	border:0;
+	background:transparent;
+}

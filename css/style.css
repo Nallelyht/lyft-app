@@ -1,30 +1,58 @@
-#index{
+/*general*/
+.position-relative{
+	position: relative;
+}
+.position-absolute{
+	position: absolute;
+}
+.white{
+	color: #fff;
+}
+/*index*/
+.index{
 	background-image: url(../assets/img/img02.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: bottom;
 	height: 100vh;
-	position: relative;
 }
-.position{
-	position: absolute;
+.buttons{
 	bottom: 10%;
 	width: 90%
 }
-#index .img-responsive{
+.index .img-responsive{
 	width: 25%;
 	margin-top: 10%
 }
-#index .btn{
+.index .btn{
 	width: 100%;
 	padding: 10px 45px;
 	color: #FFF;
 }
-#index .sign{
+.index .sign{
 	background: linear-gradient(to right, #a80077 0%,#a80077 43%,#ce2767 100%);
 	border-radius: 5px;
 	color: #fff;
 }
-#index .log{
+.index .log{
 	background-color: transparent;
+}
+/*seccion sign up*/
+.arrow-left{
+	font-size: 2.2em;
+	color: #D806A3;
+	margin-left: -45%;
+
+}
+.signup img{
+	margin-right: 2px;
+	width: 2em;
+}
+.next{
+	background: linear-gradient(to left, #a80077 0%,#a80077 43%,#ce2767 100%);
+	width: 100%;
+	bottom: 0;
+}
+footer section{
+	padding: 3% 0
 }

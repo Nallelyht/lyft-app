@@ -10,32 +10,44 @@
 }
 /*index*/
 .index{
-	background-image: url(../assets/img/img02.jpg);
+	background-image: url(../assets/img/lyft.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: bottom;
+	background-position: center;
+	height: 100vh;
+}
+
+/*home*/
+.home{
+	background: url(../assets/img/road.gif);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
 	height: 100vh;
 }
 .buttons{
 	bottom: 10%;
 	width: 90%
 }
-.index .img-responsive{
+.home .img-responsive{
 	width: 25%;
 	margin-top: 10%
 }
-.index .btn{
+.home .btn{
 	width: 100%;
 	padding: 10px 45px;
 	color: #FFF;
 }
-.index .sign{
+.home .sign{
 	background: linear-gradient(to right, #a80077 0%,#a80077 43%,#ce2767 100%);
 	border-radius: 5px;
 	color: #fff;
 }
-.index .log{
+.home .log{
 	background-color: transparent;
+	color: #FF00BF;
+	border-radius: 5px;
+	font-weight:600;
 }
 /*seccion sign up*/
 .arrow-left{
@@ -65,7 +77,18 @@ footer section{
 	box-shadow: 0 0 0; 
 	border-color:#ccc;
 }
-.stylish-input-group button{
+.stylish-input-group{
 	border:0;
 	background:transparent;
+}
+.input-left{
+	border-right: 0;
+}
+.input-group .input-left{
+	display: flex;
+	flex-wrap: nowrap;
+} 
+.two-fields .input-group {
+	width:100%;
+
 }

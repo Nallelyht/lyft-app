@@ -21,33 +21,36 @@
 		</header>
 		<section class="container-fluid signup">
 			<form class="row">
-				<div class="col-sm-6 col-sm-offset-3">
-					<div id="imaginary_container"> 
-						<div class="input-group stylish-input-group">
-							<span class="input-group-addon">
-								<button type="submit">
-									<i class="fa fa-user-circle-o" aria-hidden="true"></i>
-								</button>  
-							</span>
-							<input type="text" class="form-control"  placeholder="First name &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; Last name"/>
-						</div>
+				<div class="col-xs-6 col-xs-offset-3">
+					<div class="input-group stylish-input-group">
+						<span class="input-group-addon">
+							<i class="fa fa-user-o" aria-hidden="true"></i>
+						</span>
+						<input type="text" required class="form-control" placeholder="First name">
+						<input type="text" required class="form-control" placeholder="Last name">
 					</div>
 				</div>
-				<br>
-				<div class="col-sm-6 col-sm-offset-3">
-					<div id="imaginary_container"> 
-						<div class="input-group stylish-input-group">
-							<span class="input-group-addon">
-								<button type="submit">
-									<i class="fa fa-envelope-o" aria-hidden="true"></i>
-								</button>  
-							</span>
-							<input type="text" class="form-control"  placeholder="Email"/>
-						</div>
+				<div class="col-xs-6 col-xs-offset-3"> 
+					<div class="input-group stylish-input-group">
+						<span class="input-group-addon">
+							<i class="fa fa-envelope-o" aria-hidden="true"></i>
+						</span>
+						<input type="email" class="form-control"  placeholder="Email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"/>
 					</div>
 				</div>
 			</form>
 		</section>
+		<sectio>
+			<form >
+				<label class="text-center">
+					<input type="checkbox" required>
+					I agree to Lyft´s 
+					<a href="../index.html">
+						Terms of Service
+					</a>
+				</label>
+			</form>
+		</sectio>
 		<footer class="container-fluid next position-absolute">
 			<section class="text-center">
 				<h3><a class="white">Next</a></h3>

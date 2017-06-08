@@ -81,14 +81,18 @@ footer section{
 	border:0;
 	background:transparent;
 }
-.input-left{
+.input-group .input-left{
 	border-right: 0;
 }
-.input-group .input-left{
-	display: flex;
-	flex-wrap: nowrap;
-} 
+.input-group .input-right{
+  border-left: 0;
+}
+.two-fields {
+  width:100%;
+}
 .two-fields .input-group {
-	width:100%;
-
+  width:100%;
+}
+.two-fields input {
+  width:50% !important;
 }
